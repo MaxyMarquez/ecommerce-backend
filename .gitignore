@@ -1,0 +1,7 @@
+.env
+node_modules
+./src/logs/
+src/logs
+src/logs/app.log
+src/logs/error.log
+*.log

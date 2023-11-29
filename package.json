@@ -1,0 +1,61 @@
+{
+  "name": "apirest-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:Dev": "nodemon -L",
+    "test": "mocha -w ./tests/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.18.3",
+    "npm": ">=6.14.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "ci": "^2.2.0",
+    "cloudinary": "^1.41.0",
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.6.0",
+    "eslint": "^8.49.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.2",
+    "express-session": "^1.17.3",
+    "google-auth-library": "^9.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mailgen": "^2.0.27",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.5.2",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "secure-random-password": "^0.2.3",
+    "sequelize": "^6.34.0",
+    "sequelize-cli": "^6.6.1",
+    "socket.io": "^4.6.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "uuid": "^9.0.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1",
+    "supertest-session": "^4.1.0"
+  }
+}

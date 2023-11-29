@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "1",
+    "database": "ecommerce",
+    "host":"localhost",
+    "dialect": "postgresql",
+    "use_env_variable":true
+  },
+  "test": {
+    "username": "localhost",
+    "password": "localhost",
+    "database": "localhost",
+    "host":"localhost",
+    "dialect": "postgresql",
+    "use_env_variable":true
+  },
+  "production": {
+    "username": "localhost",
+    "password": "localhost",
+    "database": "localhost",
+    "host":"localhost",
+    "dialect": "postgresql",
+    "use_env_variable":true
+  }
+}
